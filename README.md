@@ -2,13 +2,14 @@
 Track, Analyse, and Predict the Productivity Performance of the Working teams in their factories 
 
 
-
-# Garment Productivity Predictor
+---
+# Productivity Predictor
 
 A binary classifier predicting underperforming teams in garment manufacturing.
 
 **Goal**: Identify teams likely to miss productivity targets (prioritizing recall to minimize false negatives).
 
+---
 ## Key Features
 - **Target**: Binary classification (`1` = actual productivity < target)
 - **Focus**: Optimized for **recall** (minimizing missed underperformers)
@@ -18,6 +19,8 @@ A binary classifier predicting underperforming teams in garment manufacturing.
   - Idle time (>250 min) 
   - Incentives (>2500 BDT)
 
+
+---
 ## Methodology
 1. **Preprocessing**:
    - Imputed missing `wip` with 0
@@ -37,10 +40,12 @@ A binary classifier predicting underperforming teams in garment manufacturing.
    D --> F[Random Forest]
    D --> G[Gradient Boosting]
 
+
 4. **Evaluation**:
    - Nested cross-validation
    - Primary metric: **Recall** (detection rate of underperformers)
 
+---
 ## Results
 **Best Model**: Naive Bayes  
 - **Recall**: 73.0% (detects 73% of underperformers)  
@@ -53,6 +58,7 @@ Performance gain from feature selection:
 | Logistic Regression| +12%        |
 | Linear SVM         | +38%        |
 
+---
 ## How to Use
 1. Install requirements:  
    ```bash
@@ -62,7 +68,7 @@ Performance gain from feature selection:
    ```bash
    python main.py
    ```
-
+---
 ## Data Source
 [Garment Productivity Dataset](https://archive.ics.uci.edu/dataset/665/garment+productivity) (UCI Machine Learning Repository)
 

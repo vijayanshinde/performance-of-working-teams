@@ -60,15 +60,33 @@ Performance gain from feature selection:
 | Linear SVM         | +38%        |
 
 ---
-## How to Use
-1. Install requirements:  
+## ⚙️ How to Run
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/vijayanshinde/performance-of-working-teams.git
+   cd performance-of-working-teams
+   ```
+
+2. Install dependencies:
+
    ```bash
    pip install -r requirements.txt
    ```
-2. Run analysis:  
+
+3. Launch the notebook:
+
    ```bash
-   python main.py
+   jupyter notebook primal_dual_algo_GK-VS_.ipynb
    ```
+
+4. *(Optional)* Run automated demo:
+
+   ```bash
+   ./run_demo.sh
+   ```
+
 ---
 ## Data Source
 [Garment Productivity Dataset](https://archive.ics.uci.edu/dataset/665/garment+productivity) (UCI Machine Learning Repository)

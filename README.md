@@ -78,7 +78,7 @@ Performance gain from feature selection:
 3. Launch the notebook:
 
    ```bash
-   jupyter notebook primal_dual_algo_GK-VS_.ipynb
+   jupyter notebook ML__project_underachiever_detection.ipynb
    ```
 
 4. *(Optional)* Run automated demo:

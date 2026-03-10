@@ -60,7 +60,7 @@ Performance gain from feature selection:
 | Linear SVM         | +38%        |
 
 ---
-## ⚙️ How to Run
+##  How to Run
 
 1. Clone this repository:
 
